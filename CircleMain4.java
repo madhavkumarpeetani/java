@@ -27,7 +27,7 @@ class CircleMain4
 		double radius2=sc.nextDouble();
 		ob1.setCircle(radius1);
 		ob2.setCircle(radius2);
-		System.out.println("Area of Circle-1 is : "+ob1.area());	
-		System.out.println("Area of Circle-2 is : "+ob2.area());
+		System.out.println("Area of 1st circle is  "+ob1.area());	
+		System.out.println("Area of 2nd circle is  "+ob2.area());
 	}
 }
