@@ -10,7 +10,7 @@ class CircleArea
         return (22/7.0)*r*r;
     }
 }
-class CircleMain1 {
+class CircleMain {
     public static void main(String[] args) {
         CircleArea ca=new CircleArea();
         Scanner sc=new Scanner(System.in);
