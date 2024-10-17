@@ -8,7 +8,7 @@ class ArrayDemo
 		System.out.print("Enter no. of elements : ");
 		int n=sc.nextInt();
 		int arr[] = new int[n];
-		System.out.print("Enter "+n+" values :  ");
+		System.out.print("Enter "+n+" values into array :  ");
 		for(int i=0;i<n;i++)
 		{
 			arr[i]=sc.nextInt();
