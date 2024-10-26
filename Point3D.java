@@ -6,7 +6,7 @@ class Point2D
     int y=10;
     void display()
     {
-        System.out.println("The coordinates are { " +x+ " ,"+y+" }");
+        System.out.println("The coordinates are  " +x+ " ,"+y+" ");
     }
 }
 class Point3D extends Point2D
@@ -14,7 +14,7 @@ class Point3D extends Point2D
     int z=15;
     void display()
     {
-        System.out.println("The coordinates are { "+x+" ,"+y+" ,"+z+" }");
+        System.out.println("The coordinates are "+x+" ,"+y+" ,"+z+" ");
     }
     public static void main(String args[])
     {
