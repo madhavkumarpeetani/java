@@ -1,0 +1,25 @@
+import java.io.*;
+
+abstract class Bas	
+{
+	abstract void fun();
+}
+
+class Derived extends Bas
+{
+	void fun()
+	{
+		System.out.println("Derived fun is invoked");
+	}
+}
+
+class Abstractdemo1
+{
+	public static void main(String args[])
+	{
+		Derived d =  new Derived();
+		d.fun();
+		Bas b = new Derived();
+		b.fun();
+	}
+}
